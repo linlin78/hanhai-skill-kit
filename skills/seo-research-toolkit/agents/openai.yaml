@@ -1,0 +1,14 @@
+interface:
+  display_name: SEO Research Toolkit
+  short_description: Research keywords and competitors safely
+  default_prompt: Use @seo-research-toolkit to research a keyword and competitor domain,
+    then create an SEO opportunity brief.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

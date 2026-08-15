@@ -1,0 +1,13 @@
+interface:
+  display_name: 轻量视频剪辑助手
+  short_description: 将素材、脚本和创意整理成可直接照着剪的短视频剪辑清单
+  default_prompt: 使用 $simple-video-editing 把我的素材整理成短视频脚本、分镜和剪辑时间轴。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

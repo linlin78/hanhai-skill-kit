@@ -1,0 +1,13 @@
+interface:
+  display_name: 网页应用测试
+  short_description: 为网站和网页应用设计并执行最小必要的功能回归测试流程
+  default_prompt: 使用 $webapp-testing 为当前网页应用列出关键流程并输出测试结果。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

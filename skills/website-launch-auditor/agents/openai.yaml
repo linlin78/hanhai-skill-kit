@@ -1,0 +1,13 @@
+interface:
+  display_name: 网站上线审查
+  short_description: 按上线验收、SEO、转化和运营准备输出可修复的问题清单
+  default_prompt: 使用 $website-launch-auditor 审查当前网站，先输出问题与上线结论，不修改代码。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
